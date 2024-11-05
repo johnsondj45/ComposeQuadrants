@@ -29,6 +29,7 @@ class MainActivity : ComponentActivity() {
                     Quadrants(
                         textOneA = "Android",
                         modifier = Modifier.padding(innerPadding)
+                        //in progress
                     )
                 }
             }
