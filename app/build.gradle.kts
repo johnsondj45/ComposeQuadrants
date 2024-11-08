@@ -5,7 +5,6 @@ plugins {
 
 android {
     namespace = "com.example.composequadrants"
-    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.composequadrants"
@@ -47,6 +46,7 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+    compileSdk = 35
 }
 
 dependencies {
